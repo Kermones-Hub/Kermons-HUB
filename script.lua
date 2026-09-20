@@ -1,4 +1,3 @@
--- Kermons | HUB (Часть 1)
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 local TweenService = game:GetService("TweenService")
@@ -161,8 +160,7 @@ SubmitButton.MouseButton1Click:Connect(function()
         ErrorLabel.Text = "❌ Неверный ключ!"
         task.delay(2, function() if ErrorLabel then ErrorLabel.Text = "" end end)
     end
-end)
--- Kermons | HUB (Часть 2)
+end
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService("RunService")
